@@ -1,0 +1,30 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/copy.png</file>
+        <file>images/cut.png</file>
+        <file>images/find.png</file>
+        <file>images/gotocell.png</file>
+        <file>images/icon.png</file>
+        <file>images/new.png</file>
+        <file>images/open.png</file>
+        <file>images/paste.png</file>
+        <file>images/save.png</file>
+        <file>images/layer.png</file>
+        <file>images/report.png</file>
+        <file>images/pulse.png</file>
+        <file>images/bpf.png</file>
+        <file>images/delete.png</file>
+        <file>images/finger.png</file>
+        <file>images/pulse_ref.png</file>
+        <file>images/export.png</file>
+        <file>images/print.png</file>
+        <file>images/setup1.png</file>
+        <file>images/setup2.png</file>
+        <file>images/setup3.png</file>
+        <file>images/setup4.jpg</file>
+        <file>images/setup5.png</file>
+        <file>images/multilayer.png</file>
+        <file>images/multilayer2.ico</file>
+        <file>images/multilayer2.png</file>
+    </qresource>
+</RCC>

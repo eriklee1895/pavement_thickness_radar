@@ -1,0 +1,9 @@
+#ifndef FILTER_H
+#define FILTER_H
+
+namespace filter {
+
+void    yuMatlabFilter(double y[], double zf[], 
+                       double b[], int lenB, double a[], int lenA, const double x[], int lenX, const double zi[]);
+
+}

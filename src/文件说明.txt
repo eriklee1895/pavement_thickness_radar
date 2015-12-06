@@ -1,0 +1,65 @@
+------------探地雷达路面厚度检测软件项目备忘录---------------
+---------------项目信息----------------
+项目名称：探地雷达路面厚度检测软件
+作者：李玉恒 (Erik Lee)
+单位：中国科学院电子学研究所十室
+项目开始时间：2013/04
+开发环境：C++ @ Qt 4.8.4
+开发平台：Qt Creator
+第三方库：Qwt - 用于绘制部分图表曲线
+        SP++ 3.0 - 信号处理库
+-------------------------------------
+
+-------------------文件夹说明-----------------------
+/arthurstyle: arthurstyle样式
+/images: 保存程序中用到的图片资源
+/splab: SP++信号处理库
+/fftw: FFT库
+/qwt: Qwt库
+------------------我是华丽的分割线----------------------
+
+
+-------------------源代码文件说明-----------------------
+*bpfdialog.h/.cpp: 带通滤波对话框类
+*bscan_viewer.h/.cpp: 显示B-Scan剖面图的Widget
+*curveplotter.h/.cpp: 显示A-Scan波形的Widget
+*dsptool.h: 软件中的信号处理函数方法，都放在了dspTools命名空间中。
+             将来可能把这些方法修改为泛型方法
+*gpr_fileheader.h: GPR文件的文件头定义结构体
+*layer_detector.h/.cpp: 反射层检测算法类
+*layerexplorerpanel.h/.cpp: 层管理器面板类
+*layerinfo.h/.cpp: 反射层信息类，目前没用到
+*loadrefwavedialog.h/.cpp: 载入校准波形对话框类
+*mainwindow.h/.cpp: 主窗口
+*parameterdialog.h: 反射层检测参数设置对话框
+*pavementevaluation.h/.cpp: 主程序的中央窗口Widget，程序最重要的一个类
+                            包含：GPR文件信息面板、层管理器面板、B-Scan、A-Scan
+*removecouplingpulsedialog.h/.cpp: 去除直耦波对话框
+*segy_filehead.h: SGY文件头结构体
+*spectrumviewer.h: 显示频谱的Widget，继承自QwtPlot
+*thicknessdialog.h: 厚度与介电常数曲线显示对话框
+*thicknessestimator.h/.cpp: 估计厚度与介电常数的类
+
+\arthurstyle文件夹: arthurstyle样式
+    arthurstyle.h/.cpp:  样式主文件
+    arthurwidgets.h/.cpp:  更改按钮、面板等的样式
+    hoverpoints.h/.cpp： 一种半透明的点Widget
+
+pavementevaluation.qrc: 资源文件，保存程序中用到的图片
+--------------------------------------------------------
+
+--------------------软件修改日志-----------------------
+
+
+
+--------------------尚存的Bug列表----------------------
+
+
+--------------------未来实现功能-----------------------
+
+
+
+
+
+
+
